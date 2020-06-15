@@ -1,8 +1,19 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+let input = getInput(0)
 
-
+if(input % 3 === 0){
+  return 'Fizz'
+}
+if(input % 5 === 0){
+  return "Buzz"
+ }
+if(input % 3 === 0 && input % 5 === 0){
+  return "FizzBuzz"
+}else{
+return input
+}
 
 
 
@@ -41,4 +52,4 @@
 
 function getInput(i) {
   return process.argv[i + 2];
-}
+};
