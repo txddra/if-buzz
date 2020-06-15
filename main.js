@@ -4,15 +4,15 @@
 let input = getInput(0)
 
 if(input % 3 === 0){
-  return 'Fizz'
+  console.log('Fizz')
 }
 if(input % 5 === 0){
-  return "Buzz"
+  console.log( "Buzz")
  }
 if(input % 3 === 0 && input % 5 === 0){
-  return "FizzBuzz"
+  console.log( "FizzBuzz")
 }else{
-return input
+console.log( input)
 }
 
 
